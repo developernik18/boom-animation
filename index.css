@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.canvasContainer {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#canvas1 {
+  border: 3px solid black;
+  position: absolute;
+  height: 700px;
+  width: 700px;
+  background: black;
+}
